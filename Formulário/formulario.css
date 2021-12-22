@@ -1,0 +1,60 @@
+/* AV1_Manha_Victoria_C_S_Rocha */
+
+html,body {
+    height: 90%;
+    background-image:url("https://cdn.pixabay.com/photo/2020/04/19/08/17/watercolor-5062356_960_720.jpg");
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300; font-size: 48px;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    border: dotted rgb(0, 0, 0) 2px;
+    border-radius: 7px;
+}
+
+fieldset {
+    width: 65%;
+    background-color: rgba(71, 124, 194, 0.795);
+    border-radius: 7px;
+}
+
+#texto1{
+    background-color: rgba(0, 195, 255, 0.322);
+    color: rgb(162, 180, 238)(0, 0, 0);
+}
+#texto2{
+    color: FFF;
+    font-family: cursive;
+}
+
+label {
+    width: 20%;
+    color:  FFF(0, 0, 0);
+    font-family: cursive;
+    border-radius: 30px;
+    margin: 5px;
+
+}
+#button{
+    color: #FFF;
+    background-color: rgb(32, 13, 85);
+    border: 2px;
+    height: 60px;
+    line-height: 30px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    transform: scale(1.05);
+}

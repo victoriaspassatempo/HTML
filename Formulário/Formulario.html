@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!--Av1_manha_Victoria_C_S_Rocha-->
+<html>
+ <head>
+    <meta charset="UTF-8" />
+    <title> Formulario - HTML </title>
+    <link rel="stylesheet" href="formulario.css">
+ </head>
+ <body>
+     <form id="cadastro" name="cadastro" method="post" action="mailto:victoria.rocha@fatec.sp.gov.br" 
+      enctype="text/plain">
+     <h1>Cadastre-se</h1>
+      <fieldset style = "width: 85%; margin: 0px auto;">
+        <legend id="texto1"> Dados Pessoais</legend>   
+        <p>
+            <label for="nome"> Nome: </label> 
+            <input type="text" id="nome" name="nome" size="25" maxlength="20" autofocus="autofocus" 
+            placeholder="Digite seu nome..." required="required" />
+            <label for="sobrenome"> Sobrenome: </label> 
+            <input type="text" id="sobrenome" name="sobrenome" size="25" maxlength="20" autofocus="autofocus" 
+            placeholder="Digite seu nome..." required="required" />
+        <p>
+            <legend id="texto2"> Gênero </legend> 
+            <input type="radio" id="fem" name="gen" value="fem" required="required"/>
+            <label for="fem">Feminino</label>
+            <input type="radio" id="mas" name="gen" value="mas" />
+            <label for="mas">Masculino</label>
+            <input type="radio" id="outro" name="gen" value="outro" />
+            <label for="outro"> Outro</label> 
+            <input type="radio" id="PND" name="gen" value="PND" />
+            <label for="PND">Prefiro não dizer</label> 
+        </p><p>
+           <label for="ender">Idade:</label>
+           <input id="idade" name="idade" type="number" min="18" max="75" required="required" />
+        </p>
+        </p><p>
+            <label for="email">E-mail:</label> 
+            <input type="email" id="email" name="email" size="65" placeholder="exemplo:email@prov.com" maxlength="50" 
+            autocomplete="on" required="required" />
+        <p>
+            <label for="conf.email"> Confirmar E-mail:</label> 
+            <input type="conf.email" id="email" name="conf.email" size="65"  maxlength="50" 
+            autocomplete="off" required="required" />
+        </p> </p> 
+        <p>
+            <label for="senha">Senha:</label> 
+            <input type="password" id="senha" name="senha" size="8" maxlength="12" required="required" value="Senha1234" /> 
+            <label for="senha">Confirmar Senha:</label> 
+            <input type="password" id="senha" name="senha" size="8" maxlength="12" required="required" value="Senha1234"/>
+        </p>
+          
+    </fieldset><p> </p>
+    <fieldset style ="width: 85%; margin: 0px auto;">
+        <p>
+           <input type="checkbox" id="termo" name="termo" type="checkbox" value="termo" /> 
+           <label for="termo"> Li e Aceito os <a href="https://www.lexio.legal/modelo/termos-de-uso"> Termos de Uso</a></p> </label> 
+        <div>
+           <button style = "width: 40%; align-tracks: center;" id="button" type="send" value="send" onclick="alert('Enviado com sucesso!')" />
+                Enviar
+           </button>
+        </div>    
+        </p>  
+    </fieldset>
+      </form>
+    </body>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf -8">
+        <title> Lista de nomes </title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="nomes.js"></script>
+    </head>
+    <body> 
+        <h1> Lista de Nomes</h1>
+        <label>Digite o nome: </label>
+        <input id="nome" type="text" autocomplete="off" required="required" autofocus placeholder="Ana, Julia, Camila ...">
+        <button id="adicionar" onclick="adicionar()">Adicionar</button>
+        <button id="ordenar" onclick="ordenar()"> Ordenar </button>
+        <button  type="reset" id="limpar" onclick="reset()"> Limpar </button>
+        <ol id="lista"> </ol>
+</html>
